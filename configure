@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#if mac
+if [[ `uname` == Darwin ]] ; then
+echo "PKG_LIBS = -framework OpenCL" >> ./src/Makevars
+#if linux
+elif [[ `uname` == Linux ]] ;then
+echo "PKG_LIBS = -lOpenCL" >> ./src/Makevars
+fi

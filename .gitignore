@@ -1,0 +1,8 @@
+
+.RData
+.Rhistory
+.Rproj.user/*
+*.o
+*.dll
+src/RcppExports.cpp
+R/RcppExports.R

@@ -1,0 +1,7 @@
+## -*- mode: makefile; -*-
+
+PKG_CXXFLAGS = -I../inst/inc
+
+
+CXX_STD = CXX11
+

@@ -1,0 +1,12 @@
+## -*- mode: makefile; -*-
+## Distinguish between 32 and 64 bit windows
+ifeq "$(WIN)" "64"
+    ARCH = x64
+else
+    ARCH = Win32
+endif
+
+PKG_CXXFLAGS = -I../inst/inc
+PKG_LIBS = -L../inst/lib/${ARCH} -lOpenCL
+
+CXX_STD = CXX11

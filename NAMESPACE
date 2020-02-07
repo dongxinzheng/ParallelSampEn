@@ -1,0 +1,3 @@
+useDynLib(ParallelSampEn, .registration=TRUE)
+export("sampen")
+importFrom("Rcpp", "evalCpp")

@@ -1,0 +1,17 @@
+Package: ParallelSampEn
+Type: Package
+Title: A parallel implementation of sample entropy based on OpenCL
+Version: 1.0
+Date: 2020-01-20
+Authors@R: c( person("Xinzheng", "Dong", role = c("aut", "cre"),
+                     email = "dong.xinzheng@foxmail.com"),
+              person("Chang", "Chen", role = "aut"),
+              person("Xiaohua Douglas", "Zhang", role = c("aut", "cph"),
+                     email = "douglaszhang@um.edu.mo") )
+Author: Xinzheng Dong [aut, cre], Chang Chen [aut], Xiaohua Douglas Zhang [aut, cph]
+Maintainer: Xinzheng Dong <dong.xinzheng@foxmail.com>
+Description: Calculate sample entropy in parallel based on OpenCL and provide parameter selection for m, r and multiscale.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
+SystemRequirements: C++11
