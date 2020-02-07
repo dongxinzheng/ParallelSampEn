@@ -1,2 +1,5 @@
 *.R linguist-language=R
+*.h linguist-language=R
 *.cpp linguist-language=C++
+*.c linguist-language=C++
+
